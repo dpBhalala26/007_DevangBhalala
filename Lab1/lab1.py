@@ -59,3 +59,9 @@ print(tweet)
 # download the stopwords from NLTK
 nltk.download('stopwords')
 
+import re                                   # a library for the regular expression operations
+import string                               # required for string operations
+from nltk.corpus import stopwords           # a module for the stop words that come with NLTK lib
+from nltk.stem import PorterStemmer         # a module for the stemming purpose
+from nltk.tokenize import TweetTokenizer    # a module for tokenizing the strings
+
