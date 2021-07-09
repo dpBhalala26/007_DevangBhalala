@@ -1,1 +1,1 @@
-import nltk
+import nltk, scipy, numpy, pandas, matplotlib
