@@ -45,3 +45,17 @@ plt.axis('equal')
 # Display the chart
 plt.show()
 
+# printing positive tweets in greeen
+print('\033[92m' + all_positive_tweets[random.randint(0,5000)])
+# printing negative tweets in red
+print('\033[91m' + all_negative_tweets[random.randint(0,5000)])
+
+print()
+
+# Our selected sample
+tweet = all_positive_tweets[2277]
+print(tweet)
+
+# download the stopwords from NLTK
+nltk.download('stopwords')
+
