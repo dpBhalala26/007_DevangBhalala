@@ -65,3 +65,11 @@ from nltk.corpus import stopwords           # a module for the stop words that c
 from nltk.stem import PorterStemmer         # a module for the stemming purpose
 from nltk.tokenize import TweetTokenizer    # a module for tokenizing the strings
 
+print('\033[92m' + tweet)
+print('\033[94m')
+# remove hyperlinks
+tweet2 = re.sub(r'https?:\/\/.*[\r\n]*', '', tweet2)
+# remove hashtags
+# only removing the hash # sign from the word
+tweet2 = re.sub(r'#', '', tweet2)
+print(tweet2)
