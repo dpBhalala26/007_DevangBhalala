@@ -28,9 +28,9 @@ ds = pd.DataFrame(ds_digit.data)
 #ds.info()
 #ds.describe()
 
-"""Printing the names of features and label types of wine"""
+"""Printing the names of features and label types of digits"""
 
-print("13 Featuresare as follows:\n", ds_digit.data)
+print("Features are as follows:\n", ds_digit.data)
 print("\nLabels:\n", np.unique(ds_digit.target))
 
 """**Splitting the dataset into the training and testing dataset. (Roll no: 7)
